@@ -5,6 +5,8 @@ import Hero from '../components/UI/Hero';
 import {Fragment} from 'react';
 
 export default function Home() {
+
+
   return (
     <Fragment>
       <Hero />
@@ -12,3 +14,6 @@ export default function Home() {
   )
       
 }
+
+
+

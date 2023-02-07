@@ -3,6 +3,7 @@ import React from "react";
 import {Container} from 'reactstrap';
 import styles from './header.module.css';
 import Link from 'next/link';
+import {ThemeProvider} from 'next-themes';
 
 const NAV__LINK = [
     {
@@ -44,15 +45,12 @@ const Header = () => {
                             <Link href={item.path} key={index}>{item.display}</Link>
                         ))
                         }
-                        <div className={`styles.nav__right`}>
-                            <p className=" d-flex align-items-center gap-3 mb-0">
-                                {" "}
-                                <i className="ri-smartphone-line"></i></p>
-                        </div>
+                        
                         
                     </div>
                 </div>
             </div>
+            <ThemeProvider enableSystem={true} attribute="class"></ThemeProvider>
         </Container>
     </header>
 };
