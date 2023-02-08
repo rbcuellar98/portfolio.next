@@ -4,9 +4,9 @@ import Section from "./Section";
 import styles from "../../styles/experience.module.css";
 import ExperienceItem from "./ExperienceItems";
 
-const Services = () => {
+const Experience = () => {
   return (
-    <section id="services">
+    <section id="experience">
       <Container>
         <Row>
           <Col lg="6" md="6">
@@ -40,4 +40,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Experience;
