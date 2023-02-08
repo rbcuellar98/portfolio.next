@@ -4,6 +4,7 @@ import {useTheme} from 'next-themes';
 import Hero from '../components/UI/Hero';
 import {Fragment} from 'react';
 import Services from '../components/UI/Experience';
+import About from '../components/UI/About';
 
 export default function Home() {
 
@@ -12,6 +13,7 @@ export default function Home() {
     <Fragment>
       <Hero />
       <Services />
+      <About />
     </Fragment>
   )
       
