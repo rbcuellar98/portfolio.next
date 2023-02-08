@@ -14,8 +14,8 @@ const Foot_LINK = [
         display: 'About'
     },
     {
-        path: '#services',
-        display: 'Services'
+        path: '#experience',
+        display: 'Experience'
     },
     {
         path: '#portfolio',
