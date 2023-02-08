@@ -27,7 +27,6 @@ const NAV__LINK = [
         display: 'Contact'
     },
 ]
-
 const Header = () => {
     return <header className={`${styles.header}`}>
         <Container>
