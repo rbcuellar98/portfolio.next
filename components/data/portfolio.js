@@ -1,25 +1,84 @@
 const portfolio = [
     {
-    id: "01",
-    title: "My Portfolio",
-    description: "This is my portfolio",
-    image: "/public/images",
-    category: "Portfolio Web App"
+      id: "01",
+      title: "Transportation Mobile App",
+      img: "",
+      category: "Mobile App",
+      keyword: ["Mobile", "App", "UI-UX"],
+      liveUrl: "#",
     },
+  
     {
-    id: "02",
-    title: "API",
-    description: "Football API",
-    image: "/public/images",
-    category: "API"
+      id: "02",
+      title: "Workout Tracker App",
+      img: "",
+      category: "Mobile App",
+      keyword: ["Mobile", "App", "UI-UX"],
+      liveUrl: "#",
     },
+  
     {
-    id: "03",
-    title: "Contact",
-    description: "Contact Form",
-    image: "/public/images",
-    category: "Contact Form"
-    }, 
-];
-
-export default portfolio;
+      id: "03",
+      title: "Fashion Shopping App",
+      img: "",
+      category: "Mobile App",
+      keyword: ["Mobile", "App", "UI-UX"],
+      liveUrl: "#",
+    },
+  
+    {
+      id: "04",
+      title: "Fashion Shopping App",
+      img: "",
+      category: "Mobile App",
+      keyword: ["Mobile", "App", "UI-UX"],
+      liveUrl: "#",
+    },
+  
+    {
+      id: "05",
+      title: "Furniture Shopping App",
+      img: "",
+      category: "Mobile App",
+      keyword: ["Mobile", "App", "UI-UX"],
+      liveUrl: "#",
+    },
+  
+    {
+      id: "06",
+      title: "Travel  App",
+      img: "",
+      category: "Mobile App",
+      keyword: ["Mobile", "App", "UI-UX"],
+      liveUrl: "#",
+    },
+  
+    {
+      id: "07",
+      title: "Portfolio Website",
+      img: "",
+      category: "Web Design",
+      keyword: ["Web", "Web design", "UI-UX"],
+      liveUrl: "#",
+    },
+  
+    {
+      id: "08",
+      title: "Restaurant Website",
+      img: "",
+      category: "Web Design",
+      keyword: ["Web", "Web design", "UI-UX"],
+      liveUrl: "#",
+    },
+  
+    {
+      id: "09",
+      title: "Agency Website",
+      img: "",
+      category: "Web Design",
+      keyword: ["Web", "Web design", "UI-UX"],
+      liveUrl: "#",
+    },
+  ];
+  
+  export default portfolio;

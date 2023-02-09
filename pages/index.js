@@ -5,6 +5,7 @@ import Hero from '../components/UI/Hero';
 import {Fragment} from 'react';
 import Services from '../components/UI/Experience';
 import About from '../components/UI/About';
+import Portfolio from '../components/UI/Portfolio';
 
 export default function Home() {
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Services />
       <About />
+      <Portfolio />
     </Fragment>
   )
       
