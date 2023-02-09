@@ -25,8 +25,34 @@ const portfolio = [
       keyword: ["Mobile", "App", "UI-UX"],
       liveUrl: "#",
     },
+
   
-    
+    {
+      id: "07",
+      title: "Portfolio Website",
+      img: "",
+      category: "Web Design",
+      keyword: ["Web", "Web design", "UI-UX"],
+      liveUrl: "#",
+    },
+  
+    {
+      id: "08",
+      title: "Restaurant Website",
+      img: "",
+      category: "Web Design",
+      keyword: ["Web", "Web design", "UI-UX"],
+      liveUrl: "#",
+    },
+  
+    {
+      id: "09",
+      title: "Agency Website",
+      img: "",
+      category: "Web Design",
+      keyword: ["Web", "Web design", "UI-UX"],
+      liveUrl: "#",
+    },
   ];
   
   export default portfolio;
